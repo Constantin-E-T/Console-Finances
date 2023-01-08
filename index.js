@@ -119,6 +119,20 @@ for (i = 0; i < finances.length;  i++) {
         // create a new variable for the financesMoney data
         financesMoney = finances[i][j]; 
         // console.log(financesMoney);
+        // add the financesMoney data to the totalMoney variable
+        totalMoney = moneyAmount += financesMoney;
+
+        change = financesMoney - net
+        // console.log(`change: ${change}`);
+        net = financesMoney;
+        // console.log(`net: ${net}`);
+        netArray.push(change);
+        // console.log(`netArray: ${netArray}`);
+        // console.log(`totalMoney: ${totalMoney}`);
+        // console.log(`moneyAmount: ${moneyAmount}`);
+        // console.log(`average: ${average}`);
+        // console.log(`change: ${change}`);
+        // console.log(`net: ${net}`);
         
     }
 }
