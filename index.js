@@ -84,7 +84,25 @@ var finances = [
 ['Nov-2016', 795914],
 ['Dec-2016', 60988],
 ['Jan-2017', 138230],
-['Feb-2017', 671099]
+['Feb-2017', 671099],
 ];
+// print out the finances data from array
+// console.log(finances);
 
-// create var for totalMonths from array
+// create var for totalMonths from finances array
+let totalMonths = finances.length;
+// console.log(totalMonths);
+// create a var for financesMoney amount from finances array 
+let moneyAmount = 0;
+// create a var for average amount
+let average = 0;
+// create a var for change
+let change = 0;
+// create a var for net
+let net = 0;
+let netArray = [];
+let decreaseAmount = ['', +Infinity];
+let increaseAmount = ['', -Infinity];
+let accounting;
+
+
