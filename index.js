@@ -144,6 +144,9 @@ for (i = 0; i < finances.length;  i++) {
             decreaseAmount = [financesMonths, financesMoney]
             // console.log(`decreaseAmount: ${decreaseAmount}`);
         }
+        // count the average change
+        average = Math.round((financesMoney / totalMonths) * 100) / 100;
+        // console.log(`average: ${average}`);   
         
     }
 }
