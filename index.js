@@ -133,6 +133,17 @@ for (i = 0; i < finances.length;  i++) {
         // console.log(`average: ${average}`);
         // console.log(`change: ${change}`);
         // console.log(`net: ${net}`);
+        // conditionals statements to check for greater increase
+        if (change > increaseAmount[1]) {
+            increaseAmount = [financesMonths, financesMoney]
+            // console.log(`increaseAmount: ${increaseAmount}`);
+        }
+        
+        // conditionals statements to check for greater decrease
+        if (change < decreaseAmount[1]) {
+            decreaseAmount = [financesMonths, financesMoney]
+            // console.log(`decreaseAmount: ${decreaseAmount}`);
+        }
         
     }
 }
