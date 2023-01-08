@@ -150,3 +150,16 @@ for (i = 0; i < finances.length;  i++) {
         
     }
 }
+
+accounting = `Financial Analysis
+----------------------------
+Total Months: ${totalMonths}
+Total: $ ${moneyAmount.toFixed(2)}
+----------------------------
+Average Change: $ ${average.toFixed(2)}
+-----------------------------------------------------
+Greatest Increase in Profits: ${increaseAmount[0]} ($ ${increaseAmount[1].toFixed(2)})
+Greatest Decrease in Profits: ${decreaseAmount[0]} ($ ${decreaseAmount[1].toFixed(2)})
+`
+
+console.log(accounting);
