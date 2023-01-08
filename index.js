@@ -106,3 +106,10 @@ let increaseAmount = ['', -Infinity];
 let accounting;
 
 
+// loop through all finances data array
+for (i = 0; i < finances.length;  i++) {
+    // check and print out the dates from array
+    console.log(finances[i][0]);
+    // create a new variable for the dates data
+      
+}
