@@ -109,7 +109,16 @@ let accounting;
 // loop through all finances data array
 for (i = 0; i < finances.length;  i++) {
     // check and print out the dates from array
-    console.log(finances[i][0]);
+    // console.log(finances[i][0]);
     // create a new variable for the dates data
-      
+    let financesMonths = finances[i][0];
+    // console.log(financesMonths);
+    // use a loop to print out the financesMoney data from array
+    for (j = 1; j < finances[i].length; j++) {
+        // console.log(finances[i][j]);
+        // create a new variable for the financesMoney data
+        financesMoney = finances[i][j]; 
+        // console.log(financesMoney);
+        
+    }
 }
